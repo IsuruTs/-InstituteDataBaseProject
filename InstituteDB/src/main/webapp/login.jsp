@@ -64,6 +64,14 @@
 		</style>
 	</head>
 	<body>
+	<header>
+	<nav class="navbar navbar-expand-md navbar-dark"
+	style="background-color:blue">
+	<div>
+	<a href="http://www.xadmin.net" class="navbar-brand"> Institute DataBase Management Application</a>
+	</div>
+	</header>
+	<br>
 		<div align="center">
 			<h2>Login</h2>
 			<br>
