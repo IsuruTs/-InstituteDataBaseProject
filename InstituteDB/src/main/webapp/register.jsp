@@ -69,7 +69,7 @@
 	</div>
 	</header>
 	<div class="topnav">
- 		 <a class="active" href="display.jsp">Home Page</a>
+ 		 <a class="active" href="login.jsp">Home Page</a>
 	</div>
 	<br>
 <div align="center">
