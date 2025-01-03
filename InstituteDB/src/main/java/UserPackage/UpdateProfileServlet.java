@@ -37,7 +37,7 @@ public class UpdateProfileServlet extends HttpServlet {
 			request.setAttribute("userdetails", userdetails);
 			
 			String alertMessage = "Data Update Successful";
-			response.getWriter().println("<script> alert('"+alertMessage+"'); window.location.href='profile.jsp'</script>");
+			response.getWriter().println("<script> alert('"+alertMessage+"'); window.location.href='display.jsp'</script>");
 		}
 		else {
 			RequestDispatcher dis2 = request.getRequestDispatcher("wrong.jsp");

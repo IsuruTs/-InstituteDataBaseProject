@@ -33,13 +33,21 @@
 			}
 			
 			button {
-			  background-color: #04AA6D;
-			  color: white;
+			  background-color: #40B5AD;
+			  color: blue;
 			  padding: 14px 20px;
 			  margin: 8px 0;
-			  border: none;
 			  cursor: pointer;
+			  font-weight : bold ;
 			  width: 100%;
+			border: 2px solid black;
+   
+			}
+			.logbtn{
+			border-radius:10px;
+			}
+			.sinbtn{
+			border-radius:10px;
 			}
 			
 			button:hover {
@@ -73,7 +81,8 @@
 	</header>
 	<br>
 		<div align="center">
-			<h2>Login</h2>
+			<h2>Welcome to Our Web Site</h2>
+			<h2>Please Login</h2>
 			<br>
 			<form action="LoginServlet" method="post">
 			<div class="imgcontainer">
@@ -93,7 +102,7 @@
 					</tr>
 					
 					<tr>
-						<td colspan="2"><button><input type="submit" value="Login"></button></td>
+						<td colspan="2"><button class="logbtn">Login</button></td>
 					</tr>
 				</table>
 			</div>
@@ -102,7 +111,7 @@
 			<div class="container">
 					<table>
 						<tr>
-							<td colspan="4"><button><a href="register.jsp"><input type="submit" value="Sign-up"></a></button></td>
+							<td colspan="4"><button class="sinbtn"><a href="register.jsp">Sign-Up</a></button></td>
 						</tr>
 					</table>
 			</div>

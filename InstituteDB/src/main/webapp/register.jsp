@@ -32,13 +32,15 @@
 			}
 			
 			button {
-			  background-color: #04AA6D;
-			  color: white;
+			  background-color: #40B5AD;
+			  color: blue;
 			  padding: 14px 20px;
 			  margin: 8px 0;
-			  border: none;
 			  cursor: pointer;
-			  width: 100%;
+			  font-weight : bold ;
+			border: 2px solid black;
+			border-radius:10px;
+			width: 100%;
 			}
 			
 			button:hover {
@@ -57,6 +59,27 @@
 			.container {
 			  padding: 16px;
 			}
+			.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  float: right;
+}
 			
 		</style>
 </head>
@@ -69,8 +92,8 @@
 	</div>
 	</header>
 	<div class="topnav">
- 		 <a class="active" href="login.jsp">Home Page</a>
-	</div>
+  <a class="active" href="display.jsp">Home Page</a>
+</div>
 	<br>
 <div align="center">
 <h2>New User Register</h2>
@@ -91,7 +114,7 @@
 			</tr>
 			
 			<tr>
-				<td colspan="2"><button><input type="submit" value="Registration"></button></td>
+				<td colspan="2"><button>Registration</button></td>
 			</tr>
 		</table>
 	

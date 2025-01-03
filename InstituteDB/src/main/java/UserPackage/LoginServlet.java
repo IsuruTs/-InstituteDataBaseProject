@@ -39,5 +39,15 @@ public class LoginServlet extends HttpServlet {
 		}
 		
 	}
+	protected void doPost_homepage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		try {
+			response.sendRedirect("GetAllServlet");
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
 	
 }

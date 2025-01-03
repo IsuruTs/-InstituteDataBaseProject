@@ -33,13 +33,14 @@
 			}
 			
 			button {
-			  background-color: #04AA6D;
-			  color: white;
+			  background-color: #40B5AD;
+			  color: blue;
 			  padding: 14px 20px;
 			  margin: 8px 0;
-			  border: none;
 			  cursor: pointer;
-			  width: 10%;
+			  font-weight : bold ;
+			border: 2px solid black;
+			border-radius:10px;
 			}
 			
 			button:hover {
@@ -58,6 +59,27 @@
 			.container {
 			  padding: 16px;
 			}
+			.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  float: right;
+}
 			
 		</style>
 </head>
@@ -70,17 +92,17 @@
 	</div>
 	</header>
 	<div class="topnav">
- 		 <a class="active" href="display.jsp">Home Page</a>
-	</div>
+  <a class="active" href="display.jsp">Home Page</a>
+</div>
 	<br>
 <div align="center">
-	<h1> User Profile</h1>
+	<h1> User Profile</h1><br><br>
 	<h2> ID : ${user.id}</h2>
 	<h2> Name : ${user.name}</h2>
 	<h2> Password : ${user.password}</h2>
 	<h2> Phone : ${user.phone}</h2>
 
-	<a href="updateprofile.jsp?id=${user.id}&name=${user.name}&password=${password}&phone=${phone}">
+	<a href="updateprofile.jsp?id=${user.id}&name=${user.name}&password=${user.password}&phone=${user.phone}">
 		<button>Update</button>
 	</a>
 	

@@ -58,6 +58,16 @@ table, th, td {
 td,th {
   text-align: center;
 }
+button {
+			  background-color: #40B5AD;
+			  color: blue;
+			  padding: 14px 20px;
+			  margin: 8px 0;
+			  cursor: pointer;
+			  font-weight : bold ;
+			border: 2px solid black;
+			border-radius:10px;
+			}
 
 </style>
 </head>
